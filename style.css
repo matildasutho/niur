@@ -125,3 +125,23 @@ h2 {
     from { opacity: 0; }
     to   { opacity: 0.8; }
 }
+
+@media (max-width: 636px) {
+    .bg-rock {
+        right: -100%;
+        top: -80%;
+
+    }
+    h1 {
+        font-size: 60px;
+        top: 10%;
+    }
+    h2 {
+        font-size: 35px;
+        top: 30%;
+    }
+    .grid-container {
+        bottom: 20%;
+        grid-gap: 20px 60px;
+    }
+}
